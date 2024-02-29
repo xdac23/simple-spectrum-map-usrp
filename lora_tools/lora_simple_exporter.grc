@@ -37,7 +37,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '3'
+    value: '10'
   states:
     bus_sink: false
     bus_source: false
@@ -88,7 +88,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/dan/Workspace/Gnuradio_scripts/Measurements/C4/c4-lora-short.dat
+    file: /home/dan/spectrum_mapping/lora_tools/c1-lora-long-cal.dat
     type: complex
     unbuffered: 'False'
     vlen: '1'
@@ -162,7 +162,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [904, 340.0]
+    coordinate: [896, 340.0]
     rotation: 0
     state: true
 - name: uhd_usrp_source_0
